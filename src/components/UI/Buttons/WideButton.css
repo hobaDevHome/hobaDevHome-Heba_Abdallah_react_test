@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Source+Sans+Pro&display=swap');
+* {
+  box-sizing: border-box;
+}
+.wide-button {
+  max-width: 292px;
+  height: 45px;
+  padding: 16px 32px;
+  background-color: var(--greenColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  user-select: none;
+}

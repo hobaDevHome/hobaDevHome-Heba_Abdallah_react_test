@@ -1,0 +1,42 @@
+.contianer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.viewport {
+  height: 340px;
+}
+.carousel {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+.carousel-item {
+}
+
+.up-arrow-c,
+.down-arrow-c {
+  position: absolute;
+  z-index: 30;
+  opacity: 1;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+  background-color: rgb(78, 75, 75);
+}
+.up-arrow-c:hover,
+.down-arrow-c:hover {
+  background-color: rgb(182, 172, 172);
+}
+
+.up-arrow-c {
+  top: 0px;
+  left: 30px;
+}
+.down-arrow-c {
+  bottom: -110px;
+  left: 30px;
+}
+.arrows-off-c {
+  opacity: 0;
+}

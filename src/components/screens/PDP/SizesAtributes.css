@@ -1,0 +1,29 @@
+.att-name {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.sizes-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  align-items: flex-start;
+}
+
+.att-cont {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  align-self: flex-start;
+}
+
+.att-list {
+  display: flex;
+}

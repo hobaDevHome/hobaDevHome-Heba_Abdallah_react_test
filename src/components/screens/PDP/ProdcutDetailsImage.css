@@ -1,0 +1,11 @@
+.thumb-container {
+  margin-bottom: 40px;
+  cursor: pointer;
+  user-select: none;
+}
+.product-thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: 100% 0;
+}

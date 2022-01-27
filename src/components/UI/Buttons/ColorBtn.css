@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Source+Sans+Pro&display=swap');
+.color-button {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin-right: 6px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.color-button.color-button-active {
+  border: 2px solid rgb(218, 48, 203);
+}
+
+.color-button:hover {
+  border: 2px solid rgb(218, 48, 203);
+}

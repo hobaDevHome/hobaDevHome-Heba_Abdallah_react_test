@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+:root {
+  --greenColor: #5ece7b;
+  --modalBg: #d4d3d7;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+body {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+.app-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header-in-app {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 60;
+  max-width: 1200px;
+}
+.Invisible {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}

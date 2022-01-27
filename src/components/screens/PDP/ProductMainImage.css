@@ -1,0 +1,14 @@
+.mainImage-container {
+  margin-right: 100px;
+
+  user-select: none;
+  width: 600px;
+  height: 450px;
+}
+.product-mainImage {
+  width: 600px;
+  height: 450px;
+  object-fit: cover;
+  object-position: 100% 0;
+  overflow: hidden;
+}

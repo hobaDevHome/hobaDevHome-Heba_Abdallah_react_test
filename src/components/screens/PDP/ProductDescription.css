@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto+Condensed&display=swap');
+.main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.prodcut-desc-container {
+  margin-top: 150px;
+  display: flex;
+
+  width: 100%;
+}
+
+.details-pic-div {
+  margin-right: 40px;
+  height: 450px;
+  overflow: hidden;
+}
+
+.prodcut-data-div {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.size-desc {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+.sizes-buttons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  justify-content: flex-start;
+}
+
+.prod-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+
+.prod-shore-desc {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+
+.price-amount-desc {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 18px;
+
+  margin-bottom: 40px;
+}
+
+.prod-long-desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 159.96%;
+  margin-top: 40px;
+}
+.product-img-div {
+  position: relative;
+}
+.item-cart-icon2 {
+  position: absolute;
+  right: 140px;
+  top: 420px;
+  width: 52px;
+  height: 52px;
+  background-color: var(--greenColor);
+  border-radius: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+.item-in-cart.item-cart-icon2 {
+  opacity: 1;
+}

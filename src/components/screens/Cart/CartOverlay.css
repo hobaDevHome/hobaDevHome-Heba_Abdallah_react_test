@@ -1,0 +1,116 @@
+:root {
+  --heightW: $(window) .height();
+}
+.overlay-item-titles {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.overlay-total-containt {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.overlay-buttons-div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  flex-basis: 50%;
+}
+
+.link-router a {
+  text-decoration: none;
+}
+
+.scrollable-cont.scroll {
+  overflow-y: scroll;
+}
+.scrollable-cont {
+  overflow-x: hidden;
+  max-height: 100vh;
+  margin-top: -170px;
+  padding-top: 170px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.no-items-overlay {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.no-items-contianer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.noItmesLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.linking {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.wide-bttn-in-overlay {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.backdrop {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 30;
+  background-color: rgba(57, 55, 72, 0.22);
+}
+
+.header-clone2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.header-row-clone2 {
+  position: relative;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.cart-modal-content {
+  margin-top: 80px;
+  margin-right: 15px;
+  align-self: flex-end;
+
+  z-index: 1000;
+  width: 350px;
+  background-color: white;
+  padding: 10px;
+}
